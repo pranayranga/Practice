@@ -1,4 +1,4 @@
-package General;
+package GeneralAmazon;
 
 import java.util.ArrayList;
 import java.util.Arrays;
