@@ -45,17 +45,7 @@ public class RemoteControlSequence {
 	   }
 	   return remoteSequence;
    }
-	
-   public static char[][] remoteLayout()
-   {
-	   char[][] r = new char[3][9];
-	   r[0] = "ABCDEFGHI".toCharArray();
-	   r[1] = "JKLMNOPQR".toCharArray();
-	   r[2] = "STUVWXYZ".toCharArray();
-	   System.out.println(r.toString());
-       return  r;
-   }
-   
+  
    public static Point findPoint(char input)
    {
 	   int init = 'A';
@@ -70,8 +60,6 @@ public class RemoteControlSequence {
 	
 	public static void main(String[] args) {
 		String inputSequence = "PRANAY";
-		RemoteControlSequence.remoteLayout();
 		System.out.println(sequence(inputSequence));
-		
 	}
 }
