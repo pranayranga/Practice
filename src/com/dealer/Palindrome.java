@@ -1,4 +1,4 @@
-package Dealer.com;
+package com.dealer;
 
 class Palindrome {
 
